@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name = "Suite1">
+ <parameter name="browsername" value="chrome" />
+   <test name = "testcase1">
+      <classes>
+         <class name = "tests.AddNewPayee" />
+      </classes>
+   </test>
+      <test name = "testcase2">
+      <classes>
+         <class name = "tests.SearchLink" />
+      </classes>
+   </test>
+</suite>  
